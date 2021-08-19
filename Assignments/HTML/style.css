@@ -1,7 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-}
 
 @font-face {
     font-family: "sans";
@@ -31,4 +27,9 @@ footer {
 
 footer a:visited {
     color: inherit;
+}
+
+hr.new5 {
+  border: 10px solid green;
+  border-radius: 5px;
 }
