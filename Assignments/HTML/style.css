@@ -9,14 +9,11 @@ body{
     flex-direction: column;
     background-color: #19172e;
     color: white;
-    font-family: "sans";
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    font-family: "sans";   
 }
 
 
-footer {
+.footer {
     position: absolute;
     text-align: center;
     font-size: 1rem;
@@ -25,7 +22,7 @@ footer {
     line-height: 3vh;
 }
 
-footer a:visited {
+.footer a:visited {
     color: inherit;
 }
 
