@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "sans";
+    src: url(https://piyushjoshi.tk/font/sans.ttf);
+}
+body{
+    background-color: #19172e;
+    color: white;
+    font-family: "sans";   
+}
+
+.myBorder1{
+Border-top-style: solid;
+Border-right-style: solid;
+Border-bottom-style: solid;
+Border-left-style: solid;
+Border-top-color: yellow;
+Border-right-color: red;
+Border-bottom-color:green;
+Border-left-color: orange;
+Border-width: 4px;
+}
+.myBorder2{
+Border-top-style: dotted;
+Border-right-style: dotted;
+Border-bottom-style: dotted;
+Border-left-style: solid;
+Border-top-color: yellow;
+Border-right-color: red;
+Border-bottom-color:green;
+Border-left-color: orange;
+Border-width: 4px;
+}
+.myBorder3{
+Border-top-style: solid;
+Border-right-style: solid;
+Border-bottom-style: dotted;
+Border-left-style: solid;
+Border-top-color: yellow;
+Border-right-color: red;
+Border-bottom-color:green;
+Border-left-color: orange;
+Border-width: 4px;
+}
