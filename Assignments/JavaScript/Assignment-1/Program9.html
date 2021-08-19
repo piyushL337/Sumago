@@ -2,25 +2,26 @@
    <body>   
       <script type = "text/javascript">
         
-            var grade =parseInt(prompt("Enter Grade like A, B, C"));
-            document.write("<br />");
+            var grade;
+grade = prompt("Enter Grade like A, B, C")
+ document.write("<br />");
             switch (grade) {
-               case 'A': document.write("Good job<br />");
+               case 'A': alert("Good job");
                break;
             
-               case 'B': document.write("Pretty good<br />");
+               case 'B': alert("Pretty good");
                break;
             
-               case 'C': document.write("Passed<br />");
+               case 'C': alert("Passed");
                break;
             
-               case 'D': document.write("Not so good<br />");
+               case 'D': alert("Not so good");
                break;
             
-               case 'F': document.write("Failed<br />");
+               case 'F': alert("Failed");
                break;
             
-               default:  document.write("Unknown grade<br />")
+               default:  alert("Unknown grade")
             }
             
          
