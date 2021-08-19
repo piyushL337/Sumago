@@ -19,37 +19,6 @@ body{
     min-height: 100vh;
 }
 
-h1{
-    position: absolute;    
-    top: 0;
-    padding-top: 140px;
-    font-size:3rem;
-}
-h2{
-    position: absolute;    
-    top: 0;
-    padding-top: 140px;
-}
-h3{
-    position: absolute;    
-    top: 0;
-    padding-top: 140px;
-}
-h4{
-    position: absolute;    
-    top: 0;
-    padding-top: 140px;
-}
-h5{
-    position: absolute;    
-    top: 0;
-    padding-top: 140px;
-}
-h6{
-    position: absolute;    
-    top: 0;
-    padding-top: 140px;
-}
 
 footer {
     position: absolute;
