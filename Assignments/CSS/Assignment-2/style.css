@@ -1,0 +1,77 @@
+// CSS BY PIYUSH
+@font-face {
+    font-family: "sans";
+    src: url(https://piyushjoshi.tk/font/sans.ttf);
+} //importing font to use
+
+body{
+    background-color: #19172e; 
+    color: white;
+    font-family: "sans";   
+}
+
+h1.hidden {
+  display: none;
+}
+
+.myBorder1{
+Border-top-style: solid;
+Border-right-style: solid;
+Border-bottom-style: solid;
+Border-left-style: solid;
+Border-top-color: yellow;
+Border-right-color: red;
+Border-bottom-color:green;
+Border-left-color: orange;
+Border-width: 4px;
+margin-top: 40px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 40px;
+padding-right: 15px;
+padding-left:  15px;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.myBorder2{
+Border-top-style: dotted;
+Border-right-style: dotted;
+Border-bottom-style: dotted;
+Border-left-style: solid;
+Border-top-color: yellow;
+Border-right-color: red;
+Border-bottom-color:green;
+Border-left-color: orange;
+Border-width: 4px;
+margin-top: 50px;
+margin-left: 30px;
+margin-right: 30px;
+margin-bottom: 50px;
+padding-right: 10px;
+padding-left:  10px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.myBorder3{
+Border-top-style: solid;
+Border-right-style: solid;
+Border-bottom-style: dotted;
+Border-left-style: solid;
+Border-top-color: yellow;
+Border-right-color: red;
+Border-bottom-color:green;
+Border-left-color: orange;
+Border-width: 4px;
+margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+padding-right: 8px;
+padding-left:  8px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+li {
+  display: inline;
+}
