@@ -7,13 +7,57 @@
 
   <!-------Internal css------>    
 <style>
-table{
+@font-face {
+    font-family: "sans";
+    src: url(https://piyushjoshi.tk/font/sans.ttf);
+}
+body{
+    background-color: #19172e;
+    color: white;
+    font-family: "sans";   
+}
+
+.myBorder1{
+Border-top-style: solid;
+Border-right-style: solid;
+Border-bottom-style: solid;
+Border-left-style: solid;
+Border-top-color: yellow;
+Border-right-color: red;
+Border-bottom-color:green;
+Border-left-color: orange;
+Border-width: 4px;
+}
+.myBorder2{
+Border-top-style: dotted;
+Border-right-style: dotted;
+Border-bottom-style: dotted;
+Border-left-style: solid;
+Border-top-color: yellow;
+Border-right-color: red;
+Border-bottom-color:green;
+Border-left-color: orange;
+Border-width: 4px;
+}
+.myBorder3{
+Border-top-style: solid;
+Border-right-style: solid;
+Border-bottom-style: dotted;
+Border-left-style: solid;
+Border-top-color: yellow;
+Border-right-color: red;
+Border-bottom-color:green;
+Border-left-color: orange;
+Border-width: 4px;
+}
+
+.myTable{
 border-style: solid;
 border-color: orange;
 border-width: 4px;
 width: auto;
 }
-td {
+.myTable td {
 	border-style: solid;
 border-color: green;
 border-width: 2px;
@@ -43,7 +87,7 @@ Border-width: 4px;
 <body> 
 	<h1> Register Now</h1>
 <form action="#">  
-<table>  
+<table class="myTable">  
 <tr>  
     <td class="tdLabel"><label for="register_name" class="label">Enter name:</label></td>  
     <td><input type="text" name="name" value="" id="register_name" style="width:160px"/></td>  
