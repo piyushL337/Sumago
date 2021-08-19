@@ -1,0 +1,34 @@
+body {
+  margin: 4rem 0;
+}
+
+h4 {
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+.panel {
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.panel.pj-blue {
+  border: 1px solid #0087FF;
+  background-color: #DDEDFF;
+  color: #0087FF;
+}
+.panel.pj-yellow {
+  border: 1px solid #FFBD00;
+  background-color: #FEF0B2;
+  color: #FFBD00;
+}
+.panel.pj-pink {
+  border: 1px solid #F84F7F;
+  background-color: #FAD2E1;
+  color: #F84F7F;
+}
+.panel.pj-purple {
+  border: 1px solid #7F51F4;
+  background-color: #DFCCFF;
+  color: #7F51F4;
+}
