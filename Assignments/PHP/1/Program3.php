@@ -9,7 +9,4 @@ if(isset($_POST['check_age'])){
   if($age<30){
      echo '<p>age is less than 30</p>';
   }
-  else{
-     echo '<p>age is over than 30</p>';
-  }
 }
